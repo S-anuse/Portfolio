@@ -1,6 +1,5 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
-// import profileImg from "../assets/profile.jpg";
 
 const Hero = () => {
   return (
@@ -30,20 +29,15 @@ const Hero = () => {
           technologies.
         </p>
 
-        <div>
+        <div className="hero-buttons">
           <a href="#projects">
-            <button>View Projects</button>
+            <button className="btn-primary">View Projects</button>
           </a>
 
           <a href="/Resume.pdf" target="_blank" rel="noreferrer">
-            <button>Resume</button>
+            <button className="btn-secondary">Resume</button>
           </a>
         </div>
-      </div>
-
-      <div className="right">
-        <img src="https://img.freepik.com/free-photo/brunette-business-woman-with-wavy-long-hair-blue-eyes-stands-holding-notebook-hands_197531-343.jpg"
-          alt="Sanjeevani" />
       </div>
     </section>
   );

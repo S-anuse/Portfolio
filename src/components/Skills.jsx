@@ -23,7 +23,7 @@ const Skills = () => {
     <div>
       <section id="skills">
         {/* heading */}
-        <h1>Skills</h1>
+        <h1 className="section-title">Skills</h1>
 
         {/* cards */}
         <div className="cards">
